@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.LineNumberReader;
 import java.util.Scanner;
 
-public class FileCountExample {
+public class FileCountWLC {
 
    public static void main(String[] args) {
        System.out.println("Please enter the filename (file must be in the same folder but outside of the package foler):  ");
