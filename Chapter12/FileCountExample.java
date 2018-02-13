@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class FileCountExample {
 
    public static void main(String[] args) {
-       System.out.println("Please enter the filename: ");
+       System.out.println("Please enter the filename (file must be in the same folder but outside of the package foler):  ");
    Scanner input = new Scanner(System.in);
      
    String fileName = input.nextLine();
@@ -45,10 +45,8 @@ public class FileCountExample {
      
      
    } catch (FileNotFoundException ex) {
-   // Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
    System.out.println("File not found!");
    } catch (IOException ex) {
-   //Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
    System.out.println("An error has occured: " + ex.getMessage());
    }
    }
